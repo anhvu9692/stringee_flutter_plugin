@@ -278,7 +278,7 @@
 
         // Prepare event data
         NSDictionary *event = @{
-            @"device": selectedDevice,
+            @"device": selectedDevice ?: @{},
             @"devices": deviceList
         };
 
